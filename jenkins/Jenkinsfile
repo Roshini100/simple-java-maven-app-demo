@@ -6,11 +6,5 @@ pipeline {
                         bat 'mvn -B -DskipTests clean package'
                     }
                 }
-             
-        stage ('complete'){
-            steps {
-                echo 'Hurrah ! I configured the poll scm'
-            }
         }
-    }
 }
